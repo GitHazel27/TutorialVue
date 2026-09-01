@@ -7,6 +7,7 @@
   import Parrafos from './components/Parrafos.vue';
   import Imagenes from './components/Imagenes.vue';
   import Enlaces from './components/Enlaces.vue';
+  import Divisiones from './components/Divisiones.vue';
 </script>
 
 <template>
@@ -17,6 +18,7 @@
   <Parrafos></Parrafos>
   <Imagenes></Imagenes>
   <Enlaces></Enlaces>
+  <Divisiones></Divisiones>
 </template>
 
 <style scoped>
