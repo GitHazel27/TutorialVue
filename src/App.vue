@@ -56,7 +56,11 @@
     background-color: #2f9e6d;
   }
 
-  .boton-contenido rect:hover {
+  .boton-contenido:hover rect {
     fill: #2f9e6d;
+  }
+
+  .boton-contenido:hover path {
+    stroke: #ffffff;
   }
 </style>
