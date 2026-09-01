@@ -1,9 +1,9 @@
 <template>
-    <section id="parrafos" class="parrafos">
+    <section id="imagenes" class="imagenes">
         <div class="wrapper">
             <div class="contenedor">
-                <h2>Párrafos</h2>
-                <p>Se utilizan para contener y estructurar bloques de texto estándar, agregando automáticamente un espaciado antes y después del contenido.</p>
+                <h2>Imágenes</h2>
+                <p>Permite incrustar imágenes en la página. Es una etiqueta sin cierre y utiliza atributos clave: src (ruta del archivo o URL), alt (texto alternativo accesible) y opcionalmente width/height para definir dimensiones.</p>
 
                 <button @click="mostrarCodigo = !mostrarCodigo">
                     {{ mostrarCodigo ? 'Ocultar Código' : 'Ver Ejemplo de Código' }}
@@ -13,7 +13,8 @@
                     <code>
                 HTML
                 
-                &lt;p&gt;Vue es un framework progresivo para construir interfaces de usuario.&lt;/p&gt;
+                &lt;img src="https://vuejs.org/images/logo.png" alt="Logotipo oficial de Vue"                   
+                width="150"height="150"&gt;
                     </code>
                 </pre>
             </div>

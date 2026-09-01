@@ -12,6 +12,7 @@
                 <pre v-show="mostrarCodigo" class="ejemplo">
                     <code>
                 HTML
+                
                 &lt;h1&gt;Introducción a Vue.js&lt;/h1&gt;
                 &lt;h2&gt;Fundamentos de HTML&lt;/h2&gt;
                 &lt;h3&gt;Estructura básica&lt;/h3&gt;
