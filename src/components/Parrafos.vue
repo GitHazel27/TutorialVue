@@ -2,7 +2,7 @@
     <section id="parrafos" class="parrafos">
         <div class="wrapper">
             <div class="contenedor">
-                <h2>Párrafos</h2>
+                <h2>Párrafos &lt;p&gt;</h2>
                 <p>Se utilizan para contener y estructurar bloques de texto estándar, agregando automáticamente un espaciado antes y después del contenido.</p>
 
                 <button @click="mostrarCodigo = !mostrarCodigo">
@@ -12,7 +12,7 @@
                 <pre v-show="mostrarCodigo" class="ejemplo">
                     <code>
                 HTML
-                
+
                 &lt;p&gt;Vue es un framework progresivo para construir interfaces de usuario.&lt;/p&gt;
                     </code>
                 </pre>

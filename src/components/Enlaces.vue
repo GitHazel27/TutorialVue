@@ -1,9 +1,9 @@
 <template>
-    <section id="encabezados" class="encabezados">
+    <section id="enlaces" class="enlaces">
         <div class="wrapper">
             <div class="contenedor">
-                <h2>Encabezados &lt;h1&gt; a &lt;h6&gt;</h2>
-                <p>Definen la jerarquía y estructura de títulos en la página, siendo &lt;h1&gt; el título principal y más importante, descendiendo en relevancia hasta &lt;h6&gt;.</p>
+                <h2>Enlaces / Hipervínculos &lt;a&gt;</h2>
+                <p>Crea enlaces para navegar hacia otras páginas, secciones internas o recursos externos mediante el atributo</p>
 
                 <button @click="mostrarCodigo = !mostrarCodigo">
                     {{ mostrarCodigo ? 'Ocultar Código' : 'Ver Ejemplo de Código' }}
@@ -12,10 +12,8 @@
                 <pre v-show="mostrarCodigo" class="ejemplo">
                     <code>
                 HTML
-
-                &lt;h1&gt;Introducción a Vue.js&lt;/h1&gt;
-                &lt;h2&gt;Fundamentos de HTML&lt;/h2&gt;
-                &lt;h3&gt;Estructura básica&lt;/h3&gt;
+                
+                &lt;a href="https://nodejs.org" target="_blank"&gt;Descargar Node.js&lt;/a&gt;
                     </code>
                 </pre>
             </div>

@@ -2,7 +2,7 @@
     <section id="imagenes" class="imagenes">
         <div class="wrapper">
             <div class="contenedor">
-                <h2>Imágenes</h2>
+                <h2>Imágenes &lt;img&gt;</h2>
                 <p>Permite incrustar imágenes en la página. Es una etiqueta sin cierre y utiliza atributos clave: src (ruta del archivo o URL), alt (texto alternativo accesible) y opcionalmente width/height para definir dimensiones.</p>
 
                 <button @click="mostrarCodigo = !mostrarCodigo">
@@ -12,7 +12,7 @@
                 <pre v-show="mostrarCodigo" class="ejemplo">
                     <code>
                 HTML
-                
+
                 &lt;img src="https://vuejs.org/images/logo.png" alt="Logotipo oficial de Vue"                   
                 width="150"height="150"&gt;
                     </code>

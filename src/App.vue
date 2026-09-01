@@ -6,6 +6,7 @@
   import Encabezados from './components/Encabezados.vue';
   import Parrafos from './components/Parrafos.vue';
   import Imagenes from './components/Imagenes.vue';
+  import Enlaces from './components/Enlaces.vue';
 </script>
 
 <template>
@@ -15,7 +16,7 @@
   <Encabezados></Encabezados>
   <Parrafos></Parrafos>
   <Imagenes></Imagenes>
-  
+  <Enlaces></Enlaces>
 </template>
 
 <style scoped>
