@@ -9,7 +9,11 @@
   import Enlaces from './components/Enlaces.vue';
   import Divisiones from './components/Divisiones.vue';
   import Listas from './components/Listas.vue';
-  
+  import Framework from './components/Framework.vue';
+  import Requisitos from './components/Requisitos.vue';
+  import Pasos from './components/Pasos.vue';
+import Estructura from './components/Estructura.vue';
+import Componentes from './components/Componentes.vue';
 </script>
 
 <template>
@@ -21,7 +25,11 @@
     </svg>
   </a>
   <Contenido></Contenido>
-  <Introduccion></Introduccion>
+  <Framework></Framework>
+  <Requisitos></Requisitos>
+  <Pasos></Pasos>
+  <Estructura></Estructura>
+  <Componentes></Componentes>
   <Encabezados></Encabezados>
   <Parrafos></Parrafos>
   <Imagenes></Imagenes>

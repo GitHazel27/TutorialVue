@@ -4,7 +4,11 @@
         <div class="contenedor">
             <h2>Tabla de contenido</h2>
             <ul>
-                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#framework">Framework</a></li>
+                <li><a href="#requisitos">Requisitos para programar en Vue</a></li>
+                <li><a href="#pasos">Pasos para generar un proyecto</a></li>
+                <li><a href="#estructura">Estructura de carpetas o archivos</a></li>
+                <li><a href="#componentes">Componentes</a></li>
                 <li><a href="#encabezados">Encabezados</a></li>
                 <li><a href="#parrafos">Párrafos</a></li>
                 <li><a href="#imagenes">Imágenes</a></li>
