@@ -1,4 +1,5 @@
 <template>
+    <section id="contenido" class="contenido">
     <div class="wrapper">
         <div class="contenedor">
             <h2>Tabla de contenido</h2>
@@ -13,6 +14,7 @@
             </ul>
         </div>
     </div>
+    </section>
 </template>
 
 <script setup lang="ts">
