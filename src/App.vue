@@ -8,6 +8,7 @@
   import Imagenes from './components/Imagenes.vue';
   import Enlaces from './components/Enlaces.vue';
   import Divisiones from './components/Divisiones.vue';
+  import Listas from './components/Listas.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@
   <Imagenes></Imagenes>
   <Enlaces></Enlaces>
   <Divisiones></Divisiones>
+  <Listas></Listas>
 </template>
 
 <style scoped>
